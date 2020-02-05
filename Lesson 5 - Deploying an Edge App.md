@@ -1,4 +1,4 @@
-# L5 - Deploying an Edge App
+# Lesson 5 - Deploying an Edge App
 
 In this lesson we'll cover:
 
