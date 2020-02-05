@@ -1,0 +1,36 @@
+----------- TF
+1- Download Model: wget http://download.tensorflow.org/models/object_detection/ssd_mobilenet_v2_coco_2018_03_29.tar.gz
+2- Unlock tar: tar -xvf ssd_mobilenet_v2_coco_2018_03_29.tar.gz 
+3- Open Path:  cd ssd_mobilenet_v2_coco_2018_03_29
+4- Discover file >> [frozen_inference_graph.pb][pipeline.config]: ls
+
+5- Convert the SSD MobileNet V2 model from TensorFlow: 
+python /opt/intel/openvino/deployment_tools/model_optimizer/mo.py --input_model frozen_inference_graph.pb --tensorflow_object_detection_api_pipeline_config pipeline.config --reverse_input_channels --tensorflow_use_custom_operations_config /opt/intel/openvino/deployment_tools/model_optimizer/extensions/front/tf/ssd_v2_support.json
+6- Discover File >> [.xml][.bin]: ls
+
+----------- Caffee
+1- Download Model : git clone https://github.com/DeepScale/SqueezeNet
+2- Open Path : cd SqueezeNet/
+3- Discover File >> [SqueezeNet_v1.0] [SqueezeNet_v1.1]: ls
+4- Open Path : cd SqueezeNet_v1.1/
+5- Discover File >> [squeezenet_v1.1.caffemodel]: ls
+
+6- Convert the Squeezenet V1.1 model from Caffe:
+python /opt/intel/openvino/deployment_tools/model_optimizer/mo.py --input_model squeezenet_v1.1.caffemodel --input_proto deploy.prototxt
+7- Discover File >> [.xml][.bin]: ls
+
+------------- ONNX
+1- Download Model: wget https://s3.amazonaws.com/download.onnx/models/opset_8/bvlc_alexnet.tar.gz
+2- Unlock tar: tar -xvf bvlc_alexnet.tar.gz
+3- Open Path :  cd bvlc_alexnet
+4- Discover File >> [model.onnx] : ls
+5- Convert the AlexNet model from ONNX:
+python /opt/intel/openvino/deployment_tools/model_optimizer/mo.py --input_model model.onnx
+6- Discover File >> [.xml][.bin]: ls
+
+
+
+
+
+
+
