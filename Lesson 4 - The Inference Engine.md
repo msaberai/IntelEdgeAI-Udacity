@@ -1,4 +1,4 @@
-# L4 - The Inference Engine
+# Lesson 4 - The Inference Engine
 
 In this lesson we'll cover:
 
