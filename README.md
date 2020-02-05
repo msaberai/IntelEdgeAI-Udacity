@@ -8,8 +8,8 @@ We’ll review all applications and select recipients to participate in the Inte
 
 Top students from the initial fundamentals course will be selected for one of 750 follow-up scholarships to the brand-new Intel® Edge AI for IoT Developers Nanodegree program.
 
-### --------------------------------------------------------------------------------------------------
-# L1 - Introduction to AI at the Edge
+### --------------------------------------------------------------------------------------------------------------------------
+# Lesson 1 - Introduction to AI at the Edge
 This lesson first takes a brief look at AI at the Edge, its importance, different edge applications, and some of the history behind it. 
 
 
@@ -58,8 +58,8 @@ This lesson first takes a brief look at AI at the Edge, its importance, differen
 
 - While you'll be able to perform some amazingly efficient inference after feeding into the Inference Engine, you'll still want to appropriately handle the output for the edge application, and that's what we'll hit in the final lesson.
 
-### ---------------------------------------------------------------------------------------------------
-# L2 - Leveraging Pre-Trained Models
+### -----------------------------------------------------------------------------------------------------------------------------
+# Lesson 2 - Leveraging Pre-Trained Models
 
 In this lesson the following topics will be covered:
 
@@ -378,7 +378,7 @@ A neural network making use of multiple different convolutions at each “layer�
 Precision refers to the level of detail to weights and biases in a neural network, whether in floating point precision or integer precision. Lower precision leads to lower accuracy, but with a positive trade-off for network speed and size.
 
 ### -------------------------------------------------------------------------------------
-# L3 - The Model Optimizer
+# Lesson 3 - The Model Optimizer
 
 In this lesson we'll cover:
 
@@ -582,7 +582,7 @@ Custom layers are those outside of the list of known, supported layers, and are 
 
 ### --------------------------------------------------------------------------------------------------
 
-# L4 - The Inference Engine
+# Lesson 4 - The Inference Engine
 
 In this lesson we'll cover:
 
@@ -961,7 +961,7 @@ Individual inference requests, such as image by image, to the Inference Engine. 
 
 ### -------------------------------------------------------------------------------------------------------
 
-# L5 - Deploying an Edge App
+# Lesson 5 - Deploying an Edge App
 
 In this lesson we'll cover:
 
