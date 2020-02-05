@@ -1,4 +1,4 @@
-# L1 - Introduction to AI at the Edge
+# Lesson 1 - Introduction to AI at the Edge
 This lesson first takes a brief look at AI at the Edge, its importance, different edge applications, and some of the history behind it. 
 
 
