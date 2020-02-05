@@ -1,4 +1,4 @@
-# L2 - Leveraging Pre-Trained Models
+# Lesson 2 - Leveraging Pre-Trained Models
 
 In this lesson the following topics will be covered:
 
