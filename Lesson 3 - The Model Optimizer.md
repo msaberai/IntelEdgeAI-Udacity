@@ -1,4 +1,4 @@
-# L3 - The Model Optimizer
+# Lesson 3 - The Model Optimizer
 
 In this lesson we'll cover:
 
