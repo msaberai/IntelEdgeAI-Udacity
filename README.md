@@ -8,7 +8,8 @@ We’ll review all applications and select recipients to participate in the Inte
 
 Top students from the initial fundamentals course will be selected for one of 750 follow-up scholarships to the brand-new Intel® Edge AI for IoT Developers Nanodegree program.
 
-### --------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+
 # Lesson 1 - Introduction to AI at the Edge
 This lesson first takes a brief look at AI at the Edge, its importance, different edge applications, and some of the history behind it. 
 
@@ -58,7 +59,8 @@ This lesson first takes a brief look at AI at the Edge, its importance, differen
 
 - While you'll be able to perform some amazingly efficient inference after feeding into the Inference Engine, you'll still want to appropriately handle the output for the edge application, and that's what we'll hit in the final lesson.
 
-### -----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+
 # Lesson 2 - Leveraging Pre-Trained Models
 
 In this lesson the following topics will be covered:
@@ -377,7 +379,8 @@ A neural network making use of multiple different convolutions at each “layer�
 
 Precision refers to the level of detail to weights and biases in a neural network, whether in floating point precision or integer precision. Lower precision leads to lower accuracy, but with a positive trade-off for network speed and size.
 
-### -------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
+
 # Lesson 3 - The Model Optimizer
 
 In this lesson we'll cover:
@@ -580,7 +583,7 @@ Layers supported for direct conversion from supported framework layers to interm
 Custom layers are those outside of the list of known, supported layers, and are typically a rare exception. Handling custom layers in a neural network for use with the Model Optimizer depends somewhat on the framework used; other than adding the custom layer as an extension, you otherwise have to follow instructions specific to the framework.
 
 
-### --------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
 # Lesson 4 - The Inference Engine
 
@@ -959,7 +962,7 @@ An instance of a network loaded into an IECore and ready for inference. It is ca
 
 Individual inference requests, such as image by image, to the Inference Engine. Each of these contain their inputs as well as the outputs of the inference request once complete.
 
-### -------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
 # Lesson 5 - Deploying an Edge App
 
@@ -1369,7 +1372,7 @@ A Python framework useful for web development and another potential option for v
 
 A web server built with Node.js that can handle HTTP requests and/or serve up a webpage for viewing in a browser.
 
-### ---------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
 You’ve accomplished something amazing! You went from the basics of AI at the Edge, built your skills with pre-trained models, the Model Optimizer, Inference Engine and more with the Intel® Distribution of OpenVINO™ Toolkit, and even learned more about deploying an app at the edge. Best of luck on the project, and I look forward to seeing what you build next!
 Intel® DevMesh
