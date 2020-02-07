@@ -691,9 +691,17 @@ Note that a more optimal approach here would actually check whether a CPU extens
 
 You should make sure your implementation runs with all three pre-trained models we worked with earlier (and you are welcome to also try the models you converted in the previous lesson from TensorFlow, Caffe and ONNX, although your workspace may not have these stored). I placed these in the `/home/workspace/models` directory for easier use, and because the workspace will reset the `/opt` directory between sessions.
 
+#### Human Pose Estimation
 ``` python feed_network.py -m /home/workspace/models/human-pose-estimation-0001.xml ```
 
 You can run the other two by updating the model name in the above.
+
+#### Text Detection:
+``` python feed_network.py -m /home/workspace/models/text-detection-0004.xml ```
+
+#### Determining Car Type & Color
+``` python feed_network.py -m /home/workspace/models/vehicle-attributes-recognition-barrier-0039.xml ```
+
 
 ## Sending Inference Requests to the IE
 
