@@ -1,0 +1,2 @@
+(venv) root@8d148de2e8b7:/home/workspace# python app.py -i blue-car.jpg 
+(venv) root@8d148de2e8b7:/home/workspace# python app.py -i test_video.mp4 
