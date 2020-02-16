@@ -1,0 +1,6 @@
+(venv) root@ddd226eda98c:/home/workspace# python app.py -m model.xml 
+Log: Incident at 3.80 seconds.
+Break it up!
+Log: Incident at 10.87 seconds.
+Break it up!
+Log: Incident
